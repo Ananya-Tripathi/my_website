@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    background-color: #E8F9FD;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+a{
+    color: #828181;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:aliceblue;
+}
+.header {
+    overflow: hidden;
+    background-color: #acd7e9;
+    position: fixed;
+    width: 100%;
+  }
+  .header a {
+    float: left;
+    color: #2155CD;
+    text-align: center;
+    padding: 12px auto;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+h1{
+    font-size: 562%;
+    margin: 20px auto 0px auto; 
+    color: #0AA1DD;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #2155CD;
+    font-family: 'Nothing You Could Do', cursive;
+    text-decoration: underline;
+
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #2155CD;
+    font-family: 'Inconsolata', monospace;
+    margin: 1rem auto;
+
+}
+
+p{
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 2;
+}
+
+hr{
+    color:#0AA1DD;
+    width:10%;
+    border-style: dotted none none none;
+    border-width: 5px;
+    margin: 100px auto;
+    
+}
+
+table{
+    border-spacing: 0px;
+}
+
+.bottom-shelf{
+    position: absolute;
+    left: 15%;
+    width:12%;
+}
+.dev{
+    width: 60%;
+}
+.top-shelf{
+    position:absolute;
+    top : 15%;
+    right: 10%;
+    width:12%;
+}
+.top{
+    font-size: 2rem;
+}
+.top-container{
+    color: #0AA1DD;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    background-color: #89efff;
+    color: #3C2C3E;
+}
+.bottom-container{
+    background-color: #AAAAAA ;
+    color:#c3bebe;
+    padding-top: 10px;
+}
+.mid{
+    font-size: 1.5rem;
+}
+.contact{
+    margin: 2rem auto;
+    font-size: 2rem;
+}
+.Profile{
+    width:60%;
+    margin: 0px auto;
+}
+.profile-img{
+    border-radius: 50%;
+    margin-top: 6.25rem;
+    width: 200px;
+    height:200px;
+    box-shadow: 0px 6px 6px 6px rgb(137, 133, 133);
+}
+.skills-img-fe{
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 1.875rem;
+    box-shadow: 0px 6px 6px 6px rgb(137, 133, 133);
+}
+.skills-img-ps{
+    border-radius: 50%;
+    width: 25%;
+    float: right;
+    margin-left: 1.875rem;
+    box-shadow: 0px 6px 6px 6px rgb(137, 133, 133);
+}
+.skill-row{
+    text-align: left;
+    width: 60%;
+    margin: 6.25rem auto 12.5rem auto;
+}
+.hobbies-row{
+    font-size: 1.5rem;
+    margin: 0rem auto;
+    text-align: left;
+    width: 50%;
+
+}
+.contact-row{
+    color:#F6F6F6;
+    font-size: 0.75rem;
+    margin: 1.5625rem auto 0rem auto;
+}
+
+/*
+    Positioning elements:
+        1. Relative: does not affect the rest of the code.
+                     moves relative to the current postion 
+                     of the element.
+        2. Absolute: affects the rest of the code.
+                     moves relative to the background.
+        3. Fixed:    the fixed elements does not leave 
+                     its position even when we scroll down.
+    The text-align is centre works only if the
+    elements are present in inline blocks
+
+    CENTERING THE ELEMENT:
+        use "margin: auto" if the element
+        has a width set   
+    
+    MARGINS:
+        1. margin-top/right: adds margin relative to the body
+        2. just top/right:   adds margin relative to the parent class
+    
+    FONT SIZE:
+        1. static: defineds in px.
+        2. dynamic: defined in em or percentage.
+
+    WRAPPING TEXT:
+        1. float: wrap text around an image.
+        2. clear: clear text of anything around it.
+*/
